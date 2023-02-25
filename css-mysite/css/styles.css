@@ -1,0 +1,133 @@
+element.style {
+    display: flex;
+}
+
+body{
+    margin: 0;
+    text-align: center;
+    font-family: 'Mukta', sans-serif;
+    background-color: #e4f5fe;
+}
+
+body hr{
+    border-style: none;
+    border-top-style: dotted;
+    border-color: gray;
+    border-width: 5px;
+    height: 0;
+    width: 5%;
+}
+
+h1{
+    margin-top: 50px;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    font-family: 'Sacramento', cursive;
+    font-size: 5.625rem;
+    color: #518686;
+    line-height: 2;
+}
+
+h2{
+    font-family: 'Merriweather', serif;
+    color: #518686;
+    font-weight: normal;
+}
+
+h3{
+    font-family: 'Merriweather', serif;
+    color: #11999E;
+}
+
+.top{
+    background-color: #B4E4FF;   
+    position: relative;
+    padding-top: 100px;
+}
+
+.top .tc{
+    position: absolute;
+    right: 300px;
+    top: 50px;
+}
+
+.top h2{
+    font-size: 2rem;
+    margin-top: 0px;
+}
+.top .bc{
+    position: absolute;
+    left: 300px;
+    bottom: 200px;
+}
+
+.middle-container .profile{
+    padding: 30px auto 30px auto;
+
+}
+
+.middle-container .profile img{
+    background-color: #FFF8CD;
+    border-radius: 100%;
+    width: 10rem;
+    height: auto;
+    margin-top: 20px;
+}
+
+.middle-container .skills{
+    width: 50%;
+    margin: 30px auto 30px auto;
+}
+
+.middle-container .skills .pho {
+    border-radius: 100%;
+    width: 14rem;
+    height: auto;
+}
+
+.middle-container .skills p{
+    line-height: 2;
+}
+
+.middle-container .contact-me{
+    padding-bottom: 25px;
+}
+
+.middle-container .contact-me button{
+    border-radius: 10%;
+    padding: 10px;
+    background-color: #66BFBF;
+    border-color: #66BFBF;
+    border: 0;
+    color: white;
+    text-decoration: solid;
+}
+
+.middle-container .contact-me button:hover{
+    background-color: #94c6c6;
+}
+
+
+.bottom-container{
+    background-color: #66BFBF;
+    padding: 30px;
+    line-height: 2;
+}
+
+.bottom-container a{
+    color: #0f5d60;
+    margin-right: 30px;
+    text-decoration: none;
+    font-size: larger;
+}
+
+.bottom-container a:hover{
+    color: white;
+}
+
+.bottom-container p{
+    color: white;
+    text-decoration: solid;
+    padding-top: 5px;
+}
